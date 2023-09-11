@@ -1,0 +1,2 @@
+for ensure the python process can run 
+you need to install selenium bs4 pandas requests
