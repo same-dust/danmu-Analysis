@@ -1,2 +1,6 @@
 for ensure the python process can run 
 you need to install selenium bs4 pandas requests
+In order to achieve selenium automation
+ you also need to download browser drivers
+ Whatever browser crawler you use
+ use the corresponding version of the driver for the corresponding browser
