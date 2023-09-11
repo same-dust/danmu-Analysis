@@ -4,3 +4,4 @@ In order to achieve selenium automation
  you also need to download browser drivers
  Whatever browser crawler you use
  use the corresponding version of the driver for the corresponding browser
+ps：main.py中的headers请根据自己的pc自行填写（如果没有使用“User-Agent”伪装，网页认定你为爬虫程序，将爬取失败，亲测）
