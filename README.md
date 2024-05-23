@@ -19,13 +19,13 @@
 
 整个程序分为三个部分，第一步是使用selenium实现自动化，获取视频的链接和自动点击下一页的操作。第二步是使用requests和bs4获取并解析网页，获取我想要的弹幕内容。在保存了所有爬取的弹幕后，第三步是分析数据并找到top20，然后使用pandas导入excel中。
 
-## 配置需求（建议使用python虚拟环境）
+## 配置需求（建议使用python虚拟环境和chrome浏览器）
 
 ```
 pip install -r requirements.txt
 ```
 
-还需要下载浏览器驱动程序，用来实现自动化爬虫
+还需要下载浏览器驱动程序，用来实现自动化爬虫(下载好对应的驱动版本之后要把驱动程序放在python解释器即python.exe所在的目录下)
 
 https://developer.chrome.com/docs/chromedriver/downloads?hl=zh-cn
 
